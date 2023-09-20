@@ -71,20 +71,11 @@ function buildBookmarks() {
 
 // Fetch bookmarks
 function fetchBookmarks() {
-  // Get bookmarks from localStorage if available
+  // Get bookmarks from localStorage 
   if (localStorage.getItem('bookmarks')) {
     bookmarks = JSON.parse(localStorage.getItem('bookmarks'));
-  } else {
-    // Create bookmarks array in localStorage
-    bookmarks = [
-      {
-        name: '',
-        url: '',
-      },
-    ];
-    localStorage.setItem('bookmarks', JSON.stringify(bookmarks));
-  }
-  buildBookmarks();
+  } 
+  
 }
 
 // Delete Bookmark
