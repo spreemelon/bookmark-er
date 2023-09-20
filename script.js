@@ -75,7 +75,7 @@ function fetchBookmarks() {
   if (localStorage.getItem('bookmarks')) {
     bookmarks = JSON.parse(localStorage.getItem('bookmarks'));
   } 
-  
+  buildBookmarks();
 }
 
 // Delete Bookmark
