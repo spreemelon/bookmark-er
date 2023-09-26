@@ -24,7 +24,7 @@ h1 {
   text-align: center;
   text-transform: uppercase;
   width: 275px;
-  margin: 152px auto 10px;
+  margin: 20px auto 10px;
   user-select: none;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 }
@@ -46,7 +46,7 @@ h1:hover {
   color: white;
   border-radius: var(--border-radius);
   padding: 20px;
-  margin: 64px 56px auto auto;
+  margin: 10px;
   
   filter: brightness(100%);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
